@@ -1,2 +1,2 @@
-# happy-web
-Type-Script | node | react 
+# Happy Web
+Porjeto de aprendisagem da semana omnistack!
