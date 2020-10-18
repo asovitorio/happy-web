@@ -1,18 +1,20 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  BrowserRouter,
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    BrowserRouter,
 } from "react-router-dom";
-
-export default ()=>{
-    return(
+import Lading from './pages/Landing'
+import OrphanagesMap from './pages/OrphanagesMap'
+export default () => {
+    return (
         <BrowserRouter>
-            <Route>
-                
-            </Route>
+            <Switch>
+                <Route path='/' exact component={Lading} />
+                <Route path='/app' component={OrphanagesMap} />
+            </Switch>
         </BrowserRouter>
     )
 }
