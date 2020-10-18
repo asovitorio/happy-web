@@ -1,10 +1,9 @@
 import React from "react";
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
     Switch,
     Route,
-    Link,
-    BrowserRouter,
+    
 } from "react-router-dom";
 import Lading from './pages/Landing'
 import OrphanagesMap from './pages/OrphanagesMap'
